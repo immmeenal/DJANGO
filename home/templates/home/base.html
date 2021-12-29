@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shine - Responsive Template | Template Stock</title>
+
+
+    <!-- WEB FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,400,300italic' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- BOOTSTRAP -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <!-- CUSTOM STYLING -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    <!-- PRELOADER -->
+    <link href="{% static 'css/loader.css' %}" rel="stylesheet">
+
+</head>
+
+
+{% block body %}
+{% endblock %}
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="container">
+        <div class="row text-center">
+            <p>
+                &copy; 2022 Shine | DESIGN BY <a href="https://github.com/MinalChhatre10">MINAL-PRANAV-MEERA</a>
+                <span class="social">
+							<a href="#"><i class="fa fa-facebook-square"></i></a>
+							<a href="#"><i class="fa fa-twitter-square"></i></a>
+							<a href="#"><i class="fa fa-google-plus-square"></i></a>
+						</span>
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER ENDS -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<!-- SMOOTH SCROLL -->
+<script src="{% static 'js/smooth-scroll.min.js' %}"></script>
+<!-- PARALLAX IMG -->
+<script src="{% static 'js/jquery.parallax-1.1.3.js' %}"></script>
+<!-- SCROLL REVEAL -->
+<script src="{% static 'js/scrollReveal.min.js' %}"></script>
+<!-- FUNCTIONS -->
+<script src="{% static 'js/functions.js' %}"></script>
+
+</body>
+</html>
